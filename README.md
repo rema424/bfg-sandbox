@@ -28,6 +28,20 @@ brew install bfg
 $ pwd
 /Users/rm/dev/bfg-sandbox
 
+$ ls
+README.md  password.txt
+
+$ rm password.txt
+
+$ ls
+README.md
+
+$ git add .
+
+$ git commit -m "rm password.txt"
+
+$ git push
+
 $ cd ..
 
 $ pwd
