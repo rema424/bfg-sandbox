@@ -41,5 +41,10 @@ $ git clone https://github.com/rema424/bfg-sandbox.git bfg-sandbox-mirror
 $ ls
 bfg-sandbox   bfg-sandbox-mirror
 
+$ cd bfg-sandbox-mirror
 
+$ pwd
+/Users/rm/dev/bfg-sandbox-mirror
+
+$ bfg --delete-files password.txt
 ```
