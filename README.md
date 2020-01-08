@@ -36,7 +36,7 @@ $ pwd
 $ ls
 bfg-sandbox
 
-$ git clone https://github.com/rema424/bfg-sandbox.git bfg-sandbox-mirror
+$ git clone --mirror https://github.com/rema424/bfg-sandbox.git bfg-sandbox-mirror
 
 $ ls
 bfg-sandbox   bfg-sandbox-mirror
